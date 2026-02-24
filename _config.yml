@@ -1,119 +1,99 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : RenoSnap                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # Site URL — required for sitemap (jekyll-sitemap) and absolute OG/Twitter image URLs
-url                                       :                                           # TODO: Set your site URL, e.g. https://www.yourapp.com
+url                                       : https://renosnap.app
 
 # App Info
-ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
-ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+ios_app_id                                : 6759269892                                    # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+ios_app_country                           : us                                            # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
+appstore_link                             :                                               # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+playstore_link                            :                                               # Enter Google Play Store URL.
+presskit_download_link                    :                                               # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
+                                                                                          # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon                                  :                                               # Automatically populates if not set and if iOS app ID is set. Otherwise enter path to icon file manually.
+app_name                                  : RenoSnap                                      # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+app_price                                 : " "                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+app_description                           : AI-powered home redesign in seconds
 
-enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+enable_smart_app_banner                   : true                                          # Set to true to show a smart app banner at top of page on mobile devices.
 
-og_image                                  : assets/og_image.jpg                       # The default open graph image. TODO: Replace with your app's OG image.
-og_image_alt                              :                                           # TODO: Alt text for the OG image, e.g. "MyApp - Your tagline here"
+og_image                                  : assets/og_image.jpg                           # TODO: Replace with your app's OG image.
+og_image_alt                              : RenoSnap — AI-powered home redesign in seconds
 
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-formspree_form_id                         : replaceme                                 # Enter your Formspree form ID here
-linkedin_username                         :                                           
-linkedin_company                          :                                           
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
+your_name                                 : Foobar Creative
+your_link                                 : https://foobarcreative.com
+your_city                                 : Adelaide, Australia
+email_address                             : support@renosnap.app
+formspree_form_id                         :                                               # TODO: Enter your Formspree form ID here
+linkedin_username                         :
+linkedin_company                          :
+facebook_username                         :
+instagram_username                        : renosnap
+twitter_username                          :
+github_username                           :
 youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+mastodon_link                             :
 
 
 
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : Interior Design
+    description                           : Reimagine any room with AI-powered design ideas. Upload a photo and get stunning redesign options instantly.
+    fontawesome_icon_name                 : couch
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Magic Brush
+    description                           : Paint over any item to swap it with furniture, plants, or décor. Change a single piece or transform the whole room.
+    fontawesome_icon_name                 : wand-magic-sparkles
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : Exterior Design
+    description                           : Try new colors, facades, or architectural features on your house — without lifting a paintbrush.
+    fontawesome_icon_name                 : house-chimney
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
-  
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Landscape Design
+    description                           : Design beautiful gardens, patios, and walkways with the help of AI. See your outdoor space transformed.
+    fontawesome_icon_name                 : seedling
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title                                 : Staging
+    description                           : Turn vacant rooms into styled, furnished spaces instantly. Perfect for real estate listings and interior planning.
+    fontawesome_icon_name                 : layer-group
 
 
 
 # Theme Settings
-topbar_color                              : "#000000"
-topbar_transparency                       : 0.1
-topbar_title_color                        : "#ffffff"
+topbar_color                              : "#3A3632"
+topbar_transparency                       : 0.95
+topbar_title_color                        : "#E8E4DF"
 
-cover_image                               : assets/headerimage.png                    # Replace with alternative image path or image URL.
-cover_overlay_color                       : "#363b3d"
-cover_overlay_transparency                : 0.8
+cover_image                               : assets/headerimage.png                        # Replace with alternative image path or image URL.
+cover_overlay_color                       : "#3A3632"
+cover_overlay_transparency                : 0.65
 
-device_color                              : black                                     # Set to: blue, black, yellow, coral or white.
+device_color                              : black                                         # Set to: blue, black, yellow, coral or white.
 
-body_background_color                     : "#ffffff"
+body_background_color                     : "#E8E4DF"
 
-link_color                                : "#1d63ea"
+link_color                                : "#A69279"
 
-app_title_color                           : "#ffffff"
-app_price_color                           : "#ffffff"
-app_description_color                     : "#ffffff"
+app_title_color                           : "#E8E4DF"
+app_price_color                           : "#C9B99A"
+app_description_color                     : "#C9B99A"
 
-feature_title_color                       : "#000000"
-feature_text_color                        : "#666666"
+feature_title_color                       : "#3A3632"
+feature_text_color                        : "#8B7355"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#A69279"
+feature_icons_background_color            : "#D4CFC9"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#3A3632"
+social_icons_background_color             : "#D4CFC9"
 
-footer_text_color                         : "#666666"
+footer_text_color                         : "#8B7355"
 
 
 
