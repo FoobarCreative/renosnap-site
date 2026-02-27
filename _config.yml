@@ -13,15 +13,15 @@ playstore_link                            :                                     
 presskit_download_link                    :                                               # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                           # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  :                                               # Automatically populates if not set and if iOS app ID is set. Otherwise enter path to icon file manually.
+app_icon                                  : assets/appicon512.png                         # Automatically populates if not set and if iOS app ID is set. Otherwise enter path to icon file manually.
 app_name                                  : RenoSnap                                      # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 app_price                                 : " "                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
-app_description                           : AI-powered home redesign in seconds
+app_description                           : Transform your home with just a snap and a tap
 
 enable_smart_app_banner                   : true                                          # Set to true to show a smart app banner at top of page on mobile devices.
 
 og_image                                  : assets/og_image.jpg                           # TODO: Replace with your app's OG image.
-og_image_alt                              : RenoSnap — AI-powered home redesign in seconds
+og_image_alt                              : Renosnap - Transform your home with just a snap and a tap
 
 # Information About Yourself
 your_name                                 : Foobar Creative
