@@ -63,6 +63,10 @@ features                                  :
     description                           : Turn vacant rooms into styled, furnished spaces instantly. Perfect for real estate listings and interior planning.
     fontawesome_icon_name                 : layer-group
 
+  - title                                 : Before & After
+    description                           : Compare your original space side-by-side with the AI redesign using a swipe slider. Save and share your favourites.
+    fontawesome_icon_name                 : sliders
+
 
 
 # Theme Settings
