@@ -70,7 +70,7 @@ topbar_color                              : "#3A3632"
 topbar_transparency                       : 0.95
 topbar_title_color                        : "#E8E4DF"
 
-cover_image                               : assets/headerimage.png                        # Replace with alternative image path or image URL.
+cover_image                               : assets/renosnap_header_1.jpg                        # Replace with alternative image path or image URL.
 cover_overlay_color                       : "#3A3632"
 cover_overlay_transparency                : 0.65
 
