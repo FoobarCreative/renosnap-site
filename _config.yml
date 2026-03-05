@@ -133,6 +133,17 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  guides:
+    output: true
+    permalink: /guides/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+      author: "RenoSnap Team"
 
 # Markdown rendering
 markdown: kramdown
