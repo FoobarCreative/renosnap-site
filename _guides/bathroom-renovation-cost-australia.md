@@ -38,3 +38,15 @@ For planning purposes, assume:
 - **15–20% contingency** for older homes or full strip-outs
 
 Start with the [Renosnap renovation estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}) and then pressure-test with trade quotes.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"How much does a bathroom renovation cost in Australia?","acceptedAnswer":{"@type":"Answer","text":"Many bathroom renovations land between $20,000 and $35,000, with premium scopes often exceeding this range."}},
+    {"@type":"Question","name":"Why are bathroom renovations expensive for small spaces?","acceptedAnswer":{"@type":"Answer","text":"Bathrooms involve specialist labour and compliance-heavy work like waterproofing, plumbing, tiling, and ventilation."}},
+    {"@type":"Question","name":"How much contingency should I include for a bathroom project?","acceptedAnswer":{"@type":"Answer","text":"10–20% is typical, with higher contingency for older homes or full strip-out renovations."}}
+  ]
+}
+</script>

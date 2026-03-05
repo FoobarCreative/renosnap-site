@@ -41,3 +41,15 @@ Use this checklist before you sign quotes or start demolition.
 - [ ] Single source of truth for changes agreed with trades
 
 If you haven’t set a budget yet, start here: [Interactive Renovation Cost Estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What should I finalise before requesting renovation quotes?","acceptedAnswer":{"@type":"Answer","text":"Define scope, priorities, style direction, and key constraints first so quotes are comparable and less ambiguous."}},
+    {"@type":"Question","name":"How many renovation quotes should I get?","acceptedAnswer":{"@type":"Answer","text":"2–3 itemised quotes are a practical minimum for comparing assumptions, pricing, and timeline realism."}},
+    {"@type":"Question","name":"How can before/after planning reduce renovation mistakes?","acceptedAnswer":{"@type":"Answer","text":"Visual planning clarifies design intent early, improving communication with trades and reducing late-stage changes."}}
+  ]
+}
+</script>

@@ -99,3 +99,21 @@ Use this calculator to get a quick planning estimate before you gather formal qu
   calc();
 })();
 </script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"How accurate is this renovation cost estimator?","acceptedAnswer":{"@type":"Answer","text":"It is a planning estimate based on typical Australian ranges. Use it to set an initial budget, then validate with itemised trade quotes."}},
+    {"@type":"Question","name":"What contingency should I allow for a renovation?","acceptedAnswer":{"@type":"Answer","text":"A 10–20% contingency is common, with older homes often needing the higher end due to hidden issues."}},
+    {"@type":"Question","name":"Does location affect renovation pricing?","acceptedAnswer":{"@type":"Answer","text":"Yes. Labour rates, access constraints, and material availability vary by city and region across Australia."}}
+  ]
+}
+</script>
+
+## More reno planning guides
+
+- [Kitchen Renovation Cost in Australia]({{ '/guides/kitchen-renovation-cost-australia/' | relative_url }})
+- [Bathroom Renovation Cost in Australia]({{ '/guides/bathroom-renovation-cost-australia/' | relative_url }})
+- [Renovation Planning Checklist]({{ '/guides/renovation-planning-checklist/' | relative_url }})

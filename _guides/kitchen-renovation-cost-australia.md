@@ -44,3 +44,15 @@ If you're planning a kitchen renovation, the fastest way to blow your budget is 
 5. Use Renosnap to test style directions before committing
 
 Need a quick starting number first? Use our [interactive renovation cost estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}).
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type":"Question","name":"What is a realistic kitchen renovation budget in Australia?","acceptedAnswer":{"@type":"Answer","text":"Most projects fall between $30,000 and $55,000 for mid-range scope, with premium projects commonly above that."}},
+    {"@type":"Question","name":"What increases kitchen renovation costs the most?","acceptedAnswer":{"@type":"Answer","text":"Layout changes, custom cabinetry, premium stone, and electrical/plumbing relocations are major cost drivers."}},
+    {"@type":"Question","name":"Should I finalise finishes before demolition?","acceptedAnswer":{"@type":"Answer","text":"Yes. Locking key selections early reduces delays, variation costs, and rework during construction."}}
+  ]
+}
+</script>
