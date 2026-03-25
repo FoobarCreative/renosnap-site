@@ -10,8 +10,8 @@
       {% include header.html %}
       <article class="guide-article page markdown-body">
         <nav class="breadcrumbs" style="margin-bottom: 1em; color: #666;">
-          <a href="{{ '/' | relative_url }}">Home</a> ›
-          <a href="{{ '/guides/' | relative_url }}">Guides</a> ›
+          <a href="{{ '/' | relative_url }}" target="_self">Home</a> ›
+          <a href="{{ '/guides/' | relative_url }}" target="_self">Guides</a> ›
           {% if page.category %}<span>{{ page.category }}</span> › {% endif %}
           <span>{{ page.short_title | default: page.title }}</span>
         </nav>

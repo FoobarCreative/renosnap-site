@@ -18,7 +18,7 @@ description: "Reno planning guides, budget templates, and checklists for Austral
     <h2 style="color: {{ site.feature_icons_foreground_color }};">Planning & Budget</h2>
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1em;">
       {% for guide in planning %}
-      <a href="{{ guide.url | relative_url }}" style="display:block;padding:1.2em;background:#f8f7f5;border-radius:12px;text-decoration:none;color:inherit;border:2px solid transparent;">
+      <a href="{{ guide.url | relative_url }}" target="_self" style="display:block;padding:1.2em;background:#f8f7f5;border-radius:12px;text-decoration:none;color:inherit;border:2px solid transparent;">
         <h3 style="margin:0 0 .5em;color:{{ site.topbar_color }};">{{ guide.short_title | default: guide.title }}</h3>
         <p style="margin:0;color:#666;">{{ guide.description }}</p>
       </a>
