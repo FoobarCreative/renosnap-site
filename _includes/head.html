@@ -5,6 +5,7 @@
 
 	<title class="pageTitle">{% if page.title %}{{ page.title }} | {{ site.page_title }}{% else %}{{ site.page_title }}{% endif %}</title>
 	<meta name="description" content="{{ page.description | default: site.app_description }}">
+	<link rel="canonical" href="{{ page.url | absolute_url }}">
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
 
