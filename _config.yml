@@ -143,7 +143,14 @@ defaults:
       type: "guides"
     values:
       layout: "guide"
-      author: "RenoSnap Team"
+      author: "Renosnap Team"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Renosnap Team"
+      og_type: "article"
 
 # Markdown rendering
 markdown: kramdown

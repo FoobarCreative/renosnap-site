@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+include_in_header: true
+description: "Official Renosnap announcements, release notes, and renovation insights."
+---
+
+<div class="blog-index">
+  <div class="blog-intro">
+    <p class="blog-kicker">Newsroom</p>
+    <h1>Renosnap Blog</h1>
+    <p>Official announcements, release notes, and renovation insights from the team behind Renosnap.</p>
+  </div>
+
+  {% if site.posts.size > 0 %}
+  <div class="blog-grid">
+    {% for post in site.posts %}
+    <article class="post-card">
+      <p class="post-card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+      <h2><a href="{{ post.url | relative_url }}" target="_self">{{ post.title }}</a></h2>
+      <p>{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
+      <a class="post-card-link" href="{{ post.url | relative_url }}" target="_self">Read post</a>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p>No posts published yet. Check back soon.</p>
+  {% endif %}
+</div>

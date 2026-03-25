@@ -12,21 +12,21 @@ include_in_footer: true
 
 # Terms of Service
 
-These Terms of Service ("Terms") govern your use of the RenoSnap app ("App") and website ("Site"), operated by Foobar Creative ("we", "us", "our"), an Australian business based in Adelaide, South Australia.
+These Terms of Service ("Terms") govern your use of the Renosnap app ("App") and website ("Site"), operated by Foobar Creative ("we", "us", "our"), an Australian business based in Adelaide, South Australia.
 
 By downloading or using the App, you agree to these Terms. If you don't agree, please don't use the App.
 
 ---
 
-### 1. Who Can Use RenoSnap
+### 1. Who Can Use Renosnap
 
-You must be **18 years or older** to use RenoSnap. By using the App you confirm that you meet this requirement.
+You must be **18 years or older** to use Renosnap. By using the App you confirm that you meet this requirement.
 
 ---
 
-### 2. What RenoSnap Does
+### 2. What Renosnap Does
 
-RenoSnap lets you upload photos of your home and use AI to generate redesigned versions — including interiors, exteriors, landscaping, and staged spaces. You can optionally type a text prompt describing the changes you want.
+Renosnap lets you upload photos of your home and use AI to generate redesigned versions — including interiors, exteriors, landscaping, and staged spaces. You can optionally type a text prompt describing the changes you want.
 
 ---
 
@@ -50,7 +50,7 @@ We recommend you do not submit photos containing sensitive personal information 
 
 ### 4. Your Account
 
-RenoSnap does not require you to create an account with a username or password. We automatically create an **anonymous account** when you first launch the App. This account is tied to your device and is used to store your projects.
+Renosnap does not require you to create an account with a username or password. We automatically create an **anonymous account** when you first launch the App. This account is tied to your device and is used to store your projects.
 
 If you uninstall the App, your anonymous account and any remaining data may be permanently lost.
 
@@ -58,7 +58,7 @@ If you uninstall the App, your anonymous account and any remaining data may be p
 
 ### 5. Subscriptions and Purchases
 
-RenoSnap requires a subscription ("Pro") to use the App. A free trial is available for new users. Pro subscribers enjoy high usage limits designed to comfortably cover normal use of the App.
+Renosnap requires a subscription ("Pro") to use the App. A free trial is available for new users. Pro subscribers enjoy high usage limits designed to comfortably cover normal use of the App.
 
 - Subscriptions are billed through Apple's App Store. Apple handles all payment processing.
 - You can cancel your subscription at any time through your Apple ID settings.
@@ -70,7 +70,7 @@ RenoSnap requires a subscription ("Pro") to use the App. A free trial is availab
 
 ### 6. Acceptable Use
 
-You agree not to use RenoSnap to:
+You agree not to use Renosnap to:
 
 - Submit photos of people without their consent
 - Generate content that is defamatory, offensive, or unlawful

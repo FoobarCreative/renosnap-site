@@ -12,7 +12,7 @@ include_in_footer: true
 
 # Privacy Policy
 
-This Privacy Policy explains how Foobar Creative ("we", "us", "our") handles your information when you use the RenoSnap app ("App") or website ("Site").
+This Privacy Policy explains how Foobar Creative ("we", "us", "our") handles your information when you use the Renosnap app ("App") or website ("Site").
 
 We are bound by the Privacy Act 1988 (Cth) (Australia) and are committed to handling your information responsibly.
 
