@@ -859,6 +859,59 @@ textarea.form-control {
 	max-width: 760px;
 }
 
+.post-image-pair {
+	display: grid;
+	gap: 1.8rem;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	margin: 3.2rem 0;
+	max-width: 860px;
+}
+
+.post-image-card {
+	margin: 0;
+}
+
+.post-image-card img {
+	border: 1px solid rgba($header-color, 0.12);
+	border-radius: 18px;
+	display: block;
+	width: 100%;
+}
+
+.post-image-placeholder {
+	align-items: center;
+	background: linear-gradient(135deg, rgba($header-color, 0.1) 0%, rgba($feature-icons-foreground-color, 0.16) 100%);
+	border: 1px solid rgba($header-color, 0.12);
+	border-radius: 18px;
+	color: $header-color;
+	display: flex;
+	flex-direction: column;
+	font-size: 2.6rem;
+	font-weight: 700;
+	gap: 0.8rem;
+	justify-content: center;
+	letter-spacing: -0.03em;
+	min-height: 280px;
+	padding: 2.4rem;
+	text-align: center;
+}
+
+.post-image-placeholder span {
+	color: $feature-text-color;
+	font-size: 1.6rem;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.5;
+	max-width: 22rem;
+}
+
+.post-image-card figcaption {
+	color: $footer-text-color;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin-top: 1rem;
+}
+
 .blog-grid {
 	display: grid;
 	gap: 2rem;
@@ -951,5 +1004,13 @@ textarea.form-control {
 
 	.post-card h2 {
 		font-size: 2.4rem;
+	}
+
+	.post-image-pair {
+		grid-template-columns: 1fr;
+	}
+
+	.post-image-placeholder {
+		min-height: 220px;
 	}
 }
