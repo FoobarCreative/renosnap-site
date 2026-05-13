@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/renovation-planning-checklist/
 title: "Renovation Planning Checklist: Scope, Quotes, Before/After Photos"
 short_title: "Reno Planning Checklist"
 slug: renovation-planning-checklist
@@ -40,7 +42,7 @@ Use this checklist before you sign quotes or start demolition.
 - [ ] Long-lead items ordered early
 - [ ] Single source of truth for changes agreed with trades
 
-If you haven’t set a budget yet, start here: [Interactive Renovation Cost Estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}).
+If you haven’t set a budget yet, start here: [Interactive Renovation Cost Estimator]({{ '/guides/renovation-cost-estimator-australia' | relative_url }}).
 
 <script type="application/ld+json">
 {

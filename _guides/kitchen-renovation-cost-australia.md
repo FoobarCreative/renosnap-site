@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/kitchen-renovation-cost-australia/
 title: "Kitchen Renovation Cost in Australia (2026): Realistic Budget Ranges"
 short_title: "Kitchen Reno Cost (AU)"
 slug: kitchen-renovation-cost-australia
@@ -43,7 +45,7 @@ If you're planning a kitchen renovation, the fastest way to blow your budget is 
 4. Confirm inclusions/exclusions in writing
 5. Use Renosnap to test style directions before committing
 
-Need a quick starting number first? Use our [interactive renovation cost estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}).
+Need a quick starting number first? Use our [interactive renovation cost estimator]({{ '/guides/renovation-cost-estimator-australia' | relative_url }}).
 
 <script type="application/ld+json">
 {

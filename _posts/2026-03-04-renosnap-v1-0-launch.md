@@ -3,7 +3,9 @@ title: "Renosnap Launches Version 1.0 on the App Store"
 description: "Renosnap 1.0 is now live, giving homeowners a faster way to visualize interior, exterior, landscape, and staging ideas before they commit."
 date: 2026-03-04 09:00:00 +10:30
 post_type: "Press Release"
-permalink: /blog/renosnap-v1-0-launch/
+permalink: /blog/renosnap-v1-0-launch
+redirect_from:
+  - /blog/renosnap-v1-0-launch/
 og_title: "Renosnap Launches Version 1.0 on the App Store"
 og_description: "Renosnap 1.0 is now available on the App Store, helping homeowners visualize renovation ideas in seconds."
 ---

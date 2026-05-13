@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/renovation-cost-estimator-australia/
 title: "Renovation Cost Estimator (Australia): Interactive Room-by-Room Calculator"
 short_title: "Reno Cost Estimator (AU)"
 slug: renovation-cost-estimator-australia
@@ -114,6 +116,6 @@ Use this calculator to get a quick planning estimate before you gather formal qu
 
 ## More reno planning guides
 
-- [Kitchen Renovation Cost in Australia]({{ '/guides/kitchen-renovation-cost-australia/' | relative_url }})
-- [Bathroom Renovation Cost in Australia]({{ '/guides/bathroom-renovation-cost-australia/' | relative_url }})
-- [Renovation Planning Checklist]({{ '/guides/renovation-planning-checklist/' | relative_url }})
+- [Kitchen Renovation Cost in Australia]({{ '/guides/kitchen-renovation-cost-australia' | relative_url }})
+- [Bathroom Renovation Cost in Australia]({{ '/guides/bathroom-renovation-cost-australia' | relative_url }})
+- [Renovation Planning Checklist]({{ '/guides/renovation-planning-checklist' | relative_url }})

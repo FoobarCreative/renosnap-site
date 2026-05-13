@@ -1,4 +1,6 @@
 ---
+redirect_from:
+  - /guides/bathroom-renovation-cost-australia/
 title: "Bathroom Renovation Cost in Australia (2026): What to Budget"
 short_title: "Bathroom Reno Cost (AU)"
 slug: bathroom-renovation-cost-australia
@@ -37,7 +39,7 @@ For planning purposes, assume:
 - **10–15% contingency** for straightforward jobs
 - **15–20% contingency** for older homes or full strip-outs
 
-Start with the [Renosnap renovation estimator]({{ '/guides/renovation-cost-estimator-australia/' | relative_url }}) and then pressure-test with trade quotes.
+Start with the [Renosnap renovation estimator]({{ '/guides/renovation-cost-estimator-australia' | relative_url }}) and then pressure-test with trade quotes.
 
 <script type="application/ld+json">
 {

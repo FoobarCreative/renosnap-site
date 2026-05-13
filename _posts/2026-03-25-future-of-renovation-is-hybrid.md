@@ -2,7 +2,9 @@
 title: "The Future of Renovation Is Hybrid: AI Visualization, Human Judgment"
 description: "AI is changing renovation planning most at the workflow level, helping homeowners move faster from inspiration to clearer decisions."
 date: 2026-03-25 08:30:00 +10:30
-permalink: /blog/future-of-renovation-is-hybrid/
+permalink: /blog/future-of-renovation-is-hybrid
+redirect_from:
+  - /blog/future-of-renovation-is-hybrid/
 og_title: "The Future of Renovation Is Hybrid: AI Visualization, Human Judgment"
 og_description: "A short take on why AI is most useful in renovation ideation, where fast visualization supports better human decisions."
 ---
