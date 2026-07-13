@@ -25,6 +25,17 @@ enable_smart_app_banner                   : true                                
 og_image                                  : assets/og_image.jpg                           # TODO: Replace with your app's OG image.
 og_image_alt                              : Renosnap - Transform your home with just a snap and a tap
 
+enable_guides                             : false                                     # Set to true to link the /guides index in the header and footer (Renosnap's guides index already self-links via include_in_header). Add guide markdown files to _guides/.
+
+# Screenshot Gallery (optional). A lightweight scroll-snap gallery shown between the hero and the feature list.
+# List your App Store screenshots (self-hosted, e.g. in assets/screenshot/). Omit gallery_images to hide the section.
+gallery_title                             :                                           # e.g. "See it in action"
+gallery_images                            :
+#  - path                                  : assets/screenshot/gallery-1.webp
+#    alt                                   : Describe the screenshot for SEO and accessibility
+#    width                                 : 600                                      # Intrinsic pixel size (defaults to 600x1300)
+#    height                                : 1300
+
 # Information About Yourself
 your_name                                 : Foobar Creative
 your_link                                 : https://foobarcreative.com

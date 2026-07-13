@@ -65,6 +65,8 @@ The site is entirely configured through `_config.yml` with minimal need to touch
   - `changelog.md` - App changelog (hidden from nav/footer by default)
   - `privacy-policy.md` - Privacy policy (shown in footer)
   - `contact.md` - Contact form page
+  - `guides.html` - Guides index at `/guides` (linked from nav/footer only when `enable_guides: true`)
+- `_guides/` - SEO guide articles (collection, published at `/guides/<filename>` with the `guide` layout; see `example-guide.md`)
 - `_sass/` - Styling
   - `base.scss` - Base styles and variables
   - `layout.scss` - Main layout and component styles
@@ -82,7 +84,11 @@ The site is entirely configured through `_config.yml` with minimal need to touch
 
 **Jekyll Collections**: The `_pages` collection allows markdown files to be rendered with custom permalinks and included in navigation via `include_in_header: true` / `include_in_footer: true`.
 
-**Automatic App Store Integration**: The `ios_app_id` in `_config.yml` triggers automatic fetching of app metadata from the App Store API.
+**Automatic App Store Integration**: The `ios_app_id` in `_config.yml` triggers automatic fetching of app metadata from the App Store API. The fetch script (`appstoreimages.html`, jQuery-based) is only included when one of the auto-populated fields (`appstore_link`, `app_icon`, `app_name`, `app_price`, `page_title`) is left blank — set them all explicitly in `_config.yml` and the site ships zero JavaScript.
+
+**Screenshot Gallery**: Setting `gallery_images` in `_config.yml` renders a lazy-loaded CSS scroll-snap gallery (no JS) between the hero and the feature list. Omit it and the section disappears.
+
+**Guides System**: Markdown files in `_guides/` are published at `/guides/<filename>` using the `guide` layout (breadcrumbs, optional Settings deep-link button, related-guide cards, app download CTA). A `/guides` index page always exists; `enable_guides: true` links it from the header and footer. See `_guides/example-guide.md` for the frontmatter reference.
 
 **Device Mockup System**: SVG clip paths are used to display screenshots/videos within iPhone device frames. Device color is configurable via `device_color` setting.
 

@@ -1,6 +1,20 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+{% comment %}
+The App Store lookup script only runs when a field it can auto-populate is left
+blank in _config.yml. Set appstore_link, app_icon, app_name, app_price and
+page_title explicitly and no JavaScript is emitted at all.
+{% endcomment %}
+{% assign needs_appstore_lookup = false %}
+{% if site.appstore_link == nil or site.appstore_link == '' %}{% assign needs_appstore_lookup = true %}{% endif %}
+{% if site.app_icon == nil or site.app_icon == '' %}{% assign needs_appstore_lookup = true %}{% endif %}
+{% if site.app_name == nil or site.app_name == '' %}{% assign needs_appstore_lookup = true %}{% endif %}
+{% if site.app_price == nil or site.app_price == '' %}{% assign needs_appstore_lookup = true %}{% endif %}
+{% if site.page_title == nil or site.page_title == '' %}{% assign needs_appstore_lookup = true %}{% endif %}
 
-{% if site.ios_app_id %}
+{% if needs_appstore_lookup %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+{% endif %}
+
+{% if site.ios_app_id and needs_appstore_lookup %}
 
 <script>
 

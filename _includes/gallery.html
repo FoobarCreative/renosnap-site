@@ -1,0 +1,12 @@
+{% if site.gallery_images %}
+<section class="gallery">
+    {% if site.gallery_title %}
+    <h2>{{ site.gallery_title }}</h2>
+    {% endif %}
+    <div class="galleryStrip">
+        {% for image in site.gallery_images %}
+        <img src="{{ image.path | relative_url }}" width="{{ image.width | default: 600 }}" height="{{ image.height | default: 1300 }}" loading="lazy" alt="{{ image.alt }}">
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
