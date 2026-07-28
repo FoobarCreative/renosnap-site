@@ -2,7 +2,7 @@
     "applinks": {
         "details": [
              {
-               "appIDs": ["TODO_TEAM_ID.TODO_BUNDLE_ID"],
+               "appIDs": ["2R86JC4Y89.com.foobarcreative.renosnap"],
                "components": [
                     {
                         "/": "/app/*"
