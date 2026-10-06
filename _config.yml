@@ -1,5 +1,5 @@
 #page title
-page_title                                : Renosnap                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : "Renosnap: AI Home Design & Renovation Visualizer"                                      # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
 
 # Site URL — required for sitemap (jekyll-sitemap) and absolute OG/Twitter image URLs
 url                                       : https://www.renosnap.app
